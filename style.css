@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/assets/background_2.png')center/cover;
+    color: #fff;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+}
+
+header {
+    padding: 20px;
+  
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+#category-selector, #result-container, #quiz-container {
+    background:rgba(0, 30, 70,0.7);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 400px;
+}
+
+.quiz-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+     
+}
+.question-text-card{
+    
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    height: 250px;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+
+#question-text{
+    margin:20px;
+    padding:20px;
+    height: 100px;
+    width: 300px;
+}
+
+#options-container {
+   
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+h2 {
+    padding: 8px;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px
+
+}
+.category-btn{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    margin: 12px 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #a7907e;
+    color: white;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.option-btn{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin: 12px 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #a7907e;
+    color: white;
+    transition: transform 0.2s, background-color 0.2s;
+}
+.category-btn:hover, .option-btn:hover {
+    background-color: #c19a6b;
+}
+
+.option-btn.correct {
+    background-color: #24581e;
+}
+
+.option-btn.incorrect {
+    background-color: #8b0001;
+}
+
+.hidden {
+    display: none;
+}
+.result-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.result-text {
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    height: 200px;
+}
+
+#result-gif {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result-gif img {
+    width: 300px; 
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+.restart-btn {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 25%;
+    margin: 18px 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #a7907e;
+    color: white;
+    transition: transform 0.2s, background-color 0.2s;
+
+}
+footer {
+
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 22px;
+    color: black;
+    word-spacing: 2px;
+
+}
