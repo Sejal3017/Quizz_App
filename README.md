@@ -36,10 +36,5 @@ Then, open `index.html` in your browser.
 4. See your **final score**.
 5. Hit **"Try Again"** to replay!
 
-## **Upcoming Features**
-- 🎶 **Harry Potter theme music** while playing.
-- 🔮 **More Trivia Questions!**
-- 🎨 **Choose your own House Themes**
-
 ## **License**
 ⚖️ This project is licensed under the **MIT License**.
